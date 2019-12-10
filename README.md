@@ -45,7 +45,7 @@ nmap -p 22 yourtargetremote
 ```
 ## Authors
 
-* **Lorenzo Albano Fontanot** - *Initial work* - [Ezploisite](https://github.com/Ezploisite/RedisUnauthorizedAccess)
+* **Lorenzo Albano Fontanot** - *Initial work* - [Ezploisite](https://github.com/Ezploisite)
 
 
 ## Terms of use
