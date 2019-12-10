@@ -56,7 +56,7 @@ else
 fi
 
 
-redis-cli -h 10.10.10.160 config get dbfilename
+#redis-cli -h 10.10.10.160 config get dbfilename
 echo "\e[00;92m[+]\e[00m Key Seems Correctly Overwrite!"
 
 
