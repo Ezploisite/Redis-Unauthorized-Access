@@ -69,37 +69,8 @@ else
 fi
 
 sleep 1
-echo "[+] All Good!"
-sleep 1
-echo "[+] Starting SSH Services"
-sleep 1
-echo "[+] You Will Get SSH Access In A While"
-sleep 2
+echo "[+] You Maybe Will Get SSH Access In A While"
 
-echo ""
-echo ""
-echo "                   /\ "
-echo "                  /  \ "
-echo "                 |  _ \                  _ "
-echo "                 | / \ \                / \ "
-echo "                 |/   \ \              /   \ "
-echo "                 /     \ |        /\  /     \ "
-echo "                /|      \| ~  ~  /  \/       \ "
-echo "        _______/_|_______\(o)(o)/___/\_____   \ "
-echo "       /      /  |       (______)     \    \   \_ "
-echo "      /      /   |                     \    \ "
-echo "     /      /    |                      \    \ "
-echo "    /      /     |                       \    \ "
-echo "   /     _/      |                        \    \ "
-echo "  /             _|                         \    \_ "
-echo "_/                                          \ "
-echo "                                             \ "
-echo "                                              \_ "
-echo ""
-echo ""
-echo  "\e[00;31m  PWNED! PWNED! PWNED! \e[00m"
-echo ""
-echo ""
 
 ssh -i /root/.ssh/id_rsa redis@10.10.10.160
 
